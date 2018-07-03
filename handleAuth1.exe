@@ -1,0 +1,5 @@
+WinWaitActive("Authentication Required")
+If WinExists("Authentication Required") Then
+Send("xbbl2zn{TAB}")
+Send("xxx{Enter}")
+EndIf
